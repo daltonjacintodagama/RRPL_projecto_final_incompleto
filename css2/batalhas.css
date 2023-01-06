@@ -1,0 +1,65 @@
+body{
+    text-align: justify;
+    background-color: #111112;
+    color: white;
+}
+
+.nav-link:hover {
+    background-color: red;
+    color: white;
+}
+
+h1{
+    color: red;
+}
+
+header{
+    height: 20vh;
+    background-color: rgb(213, 223, 223);
+    border-bottom: 2px red solid ;
+    display: flex;
+    align-items: flex-end;
+}
+
+header > h1{  
+    font-size: 2rem;
+    color: #ffffffe6;
+}
+
+section.texto_informativo{
+    width: 90%;
+    margin: 20px auto;
+}
+
+.temporadas{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.temporada{
+    background:linear-gradient(45deg,rgb(228, 61, 61),rgb(171, 3, 3),red,rgb(195, 172, 172));
+    width: 340px;
+    height: 415px;
+    border-radius: 50px;
+    margin-top: 20px;
+    display: flex;
+}
+
+h2{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    margin-left: auto;
+    margin-block-end: auto;
+}
+
+img.temp{
+    width:90%;
+    height:50%;
+    border-radius: 25px;
+    margin-top: 15px;
+}
+
